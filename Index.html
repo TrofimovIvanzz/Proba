@@ -1,91 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
     <title>Mathopolis</title>
     <link rel="stylesheet" href="css/Normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
-        <img src="img/Logo.svg" alt="Logo" width = "113" height = "35">
-        <button><img src ="img/Menu.svg" alt="Menu" id = "button1"></button>
+        <div class="menu">
+            <img id="logo" src="img/Logo.svg" alt="Logo">
+            <img id="imgbutton" src ="img/Menu.svg" alt="Menu">
+                <div id="list">
+                    <div id="menutext">
+                        <a href ="#" class="menutop">PUZZLES</a>
+                        <a href ="#" class="menutop">GET INVOLVED</a>
+                        <a href ="#" class="menutop">EVENTS</a>
+                        <a href ="#" class="menutop">ABOUT</a>
+                        <a href ="#" class="menutop">STORE</a>
+                    </div>
+                    <a href ="#" id="DONATE">DONATE</a>
+                </div>
+        </div>
     </header>
     <main>
         <section id="sec1">
-            <h1>VOLUNTEERS</h1>
-            <p id="p1">Make magical math moments in your community.</p>
-            <p id="p2">Mathopolis relies on volunteers to help create magical math moments for kids. We have a number of ways to get involved, from playing math puzzles in a virtual classroom to hosting your own festival.</p>
-            <img src="img/Photo1.png" alt="Photo1" width = "375" height = "305">
+            <div class="wrapper">
+                <h1>VOLUNTEERS</h1>
+                <div id="div1">
+                    <p id="p1">Make magical math moments in your community.</p>
+                    <p id="p2">Mathopolis relies on volunteers to help create magical math moments for kids. We have a number of ways to get involved, from playing math puzzles in a virtual classroom to hosting your own festival.</p>
+                </div>
+            </div>
+            <img src="img/Photo1.png" alt="Photo1">
         </section>
         <section id="sec2"> 
-            <h2>Testimonials</h2>
-            <ul>
-                <li>
-                    <input type="radio" name="radio1">
-                    <p class="p3">I am a biochemist, but I loved helping students explore a logic puzzle about a pirate captain and crew (complete with pirate hats).</p>
-                    <p class="p4">David H. <br>
-                    Festival Volunteer</p>
-                </li>
-                <li>
-                    <input type="radio" name="radio2">
-                    <p class="p3">Review2.</p> 
-                    <p class="p4">Author2. <br> 
-                    Role2.</p> 
-                </li>
-                <li>
-                    <input type="radio" name="radio3">
-                    <p class="p3">Review3.</p> 
-                    <p class="p4">Author3. <br>
-                    Role3.</p>
-                </li>
-            </ul>
+            <h2>TESTIMONIALS</h2>
+            <div id="div2">
+                <ul>
+                    <li>
+                        
+                        
+                        <style>
+                            .colortext{
+                                color: #2a2a2acc;
+                            }
+                        </style>
+                        <div id="switch">
+                            <button class="switch"><img src="img/Left.svg" alt="left"></button>
+                            <p id="p3">I am a biochemist, but I loved helping students explore a logic puzzle about a pirate captain and crew (complete with pirate hats).</p>
+                            <button class="switch"><img src="img/Right.svg" alt="Right"></button>
+                        </div>
+                        <p id="p4">David H. <br>
+                        <span class="colortext">Festival Volunteer</span></p>
+                        <div id="button2">
+                            <img src="img/Button2.svg" alt="button2">
+                            <img src="img/Button2.svg" alt="button2">
+                            <img src="img/Button1.svg" alt="button1">
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </section>
         <section id="sec3">
-            <img src="img/Photo2.png" alt="Photo2" width = "375" height = "375">
-            <h2>LEAD AN ACTIVITY</h2>
-            <p  class="p5">Play a puzzle with kids at a virtual math circle or in-person festival. Volunteers lead our puzzles by encouraging independent exploration and asking strategic questions to help with deeper thinking.</p>
-            <a href ="#" class="button">ATTEND A WORKSHOP</a>
+            <img src="img/Photo2.png" alt="Photo2">
+            <div id="div3">
+                <div class="wrapper">
+                    <h2>LEAD AN ACTIVITY</h2>
+                    <p  class="p5">Play a puzzle with kids at a virtual math circle or in-person festival. Volunteers lead our puzzles by encouraging independent exploration and asking strategic questions to help with deeper thinking.</p>
+                    <a href ="#" class="button">ATTEND A WORKSHOP</a>
+                </div>
+            </div>
         </section>
         <section id="sec4">
-            <img src="img/Photo3.png" alt="Photo3" width = "375" height = "262">
-            <h2>Run a Classroom Visit</h2>
-            <p class="p5">Lead virtual classroom visits in your neighborhood elementary or middle school. We train volunteers (including high school and college students) on how to manage this virtual outreach activity. The only thing you need to bring is an open mind and the desire to bring fun math into a kid’s life.</p>
+            <img src="img/Photo3.png" alt="Photo3">
+            <div id="div4">
+                <div class="wrapper">
+                    <h2>RUN A CLASSROOM VISIT</h2>
+                    <p class="p5">Lead virtual classroom visits in your neighborhood elementary or middle school. We train volunteers (including high school and college students) on how to manage this virtual outreach activity. The only thing you need to bring is an open mind and the desire to bring fun math into a kid’s life.</p>
+                    <a href ="#" id="VOLUNTEER">VOLUNTEER</a>
+                </div>
+            </div>
         </section>
         <section id="sec5">
-            <img src="img/Photo4.png" alt="Photo4" width = "375" height = "304">
-            <h2>Host a Festival</h2>
-            <p class="p5">A math festival is a one-time event where children gather and explore math through puzzles. Our festivals are hosted by volunteers who want to connect the children in their community with a joyful math experience. We have all the resources you need to host a festival.</p>
-            <a href ="#" class="button">LEARN MORE</a>
+            <img src="img/Photo4.png" alt="Photo4">
+            <div id="div5">
+                <div class="wrapper">
+                    <h2>HOST A FESTIVAL</h2>
+                    <p class="p5">A math festival is a one-time event where children gather and explore math through puzzles. Our festivals are hosted by volunteers who want to connect the children in their community with a joyful math experience. We have all the resources you need to host a festival.</p>
+                    <a href ="#" class="button">LEARN MORE</a>
+                </div>
         </section>
     </main>
     <footer>
-        <img src="img/Logo.svg" alt="Logo" width = "345" height = "172">
+        <img id="logo2" src="img/Logo.svg" alt="Logo">
             <p id="p6">We're a fiscally-sponsored project of a 501(c)3, Social and Environmental Entrepreneurs.</p>
-            <ul>        
-                <li><a href ="#">STUDENTS</a></li>
-                <li><a href ="#">PARENTS</a></li>
-                <li><a href ="#">TEACHERS</a></li>
-                <li><a href ="#">VOLUNTEERS</a></li>
-                <li><a href ="#">EVENTS</a></li>
-            </ul> 
-            <ul>
-                <li><a href ="#">PUZZLES</a></li>
-                <li><a href ="#">ABOUT</a></li>
-                <li><a href ="#">NEWS</a></li>
-                <li><a href ="#">STORE</a></li>
-                <li><a href ="#">DONATE</a></li>
-            </ul>
+            <div id="div6">
+                <div id="div7"> 
+                    <ul>  
+                         
+                        <li><a href ="#">STUDENTS</a></li>
+                        <li><a href ="#">PARENTS</a></li>
+                        <li><a href ="#">TEACHERS</a></li>
+                        <li><a href ="#">VOLUNTEERS</a></li>
+                        <li><a href ="#">EVENTS</a></li>
+                    </ul> 
+                </div>
+                <div id="div8">         
+                    <ul>
+                        <li><a href ="#">PUZZLES</a></li>
+                        <li><a href ="#">ABOUT</a></li>
+                        <li><a href ="#">NEWS</a></li>
+                        <li><a href ="#">STORE</a></li>
+                        <li><a href ="#">DONATE</a></li>
+                    </ul>
+                </div>
+            </div>
             <p id="p7">Follow us:</p>
-            <a href ="#"><img src="img/Twitter.svg" alt="TWITTER" width = "40" height = "40"></a>
-            <a href ="#"><img src="img/In.svg" alt="IN" width = "40" height = "40"></a>
-            <a href ="#"><img src="img/Inst.svg" alt="INST" width = "40" height = "40"></a>
-            <a href ="#"><img src="img/Facebook.svg" alt="FACEBOOK" width = "40" height = "40"></a>
-            <a href ="#"><img src="img/Youtube.svg" alt="YOUTUBE" width = "40" height = "40"></a>
-            <a href ="#" class="button">SUPPORT OUR CAUSE</a>
+            <div id="div9">
+                <a href ="#"><img src="img/Twitter.svg" alt="TWITTER" width = "40" height = "40"></a>
+                <a href ="#"><img src="img/In.svg" alt="IN" width = "40" height = "40"></a>
+                <a href ="#"><img src="img/Inst.svg" alt="INST" width = "40" height = "40"></a>
+                <a href ="#"><img src="img/Facebook.svg" alt="FACEBOOK" width = "40" height = "40"></a>
+                <a href ="#"><img src="img/Youtube.svg" alt="YOUTUBE" width = "40" height = "40"></a>
+            </div>
+            <a href ="#" class="button" id="lastb">SUPPORT OUR CAUSE</a>
+            
             <p id="p8">© 2007–2022 Mathopolis</p>
     </footer>
 </body>
