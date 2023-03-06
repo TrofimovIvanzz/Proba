@@ -42,8 +42,8 @@ h1 {
     font-size: 3.5rem;
     line-height: 41px;
     text-align: center;
-    margin: 0px 0px 30px 0px;
-    padding-top: 30px;
+    padding: 30px 0px 30px 0px;
+    margin: 0px;
 }  
 
 h2 {
@@ -86,17 +86,14 @@ ul {
 #sec1 {
     background-color: var(--sec1-bg);
     background-image: linear-gradient(to right, rgb(0, 98, 255), rgb(0, 170, 255));
-    padding-top: 10px;
-    height: 805px;
+    height: 815px;
 }
 
 #sec1 img {
     display: block;
     width: 375px;
     height: 305px;
-    margin: 42px 0px 85px 0px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 42px auto 85px auto;
 }
 
 #sec2 {
@@ -122,19 +119,16 @@ ul {
     display: block;
     width: 375px;
     height: 375px;
-    padding: 50px 0px 50px 0px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-top: 50px;
+    margin: 0px auto 50px auto;
 }
 
 #sec3 h2{
-    padding-bottom: 20px;
-    margin: 0px;
+    margin: 0px 0px 20px 0px;
 }
 
 #sec3 p{
-    margin: 0px;
-    padding-bottom: 50px;
+    margin: 0px 0px 50px 0px;
 }
 
 #sec4 {
@@ -219,9 +213,7 @@ footer ul a {
     display: block;
     width: 345px;
     height: 172px;
-    padding: 0px 0px 30px 0px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px auto 30px auto;
 }
 
 #lastb{
@@ -239,7 +231,7 @@ footer ul a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 15px 100px 15px;
+    margin: 0px 15px 100px 15px;
 }
 
 #div3{
@@ -250,14 +242,13 @@ footer ul a {
 
 #div4 {
     display: flex;
-    padding: 29px 0px 0px 0px;
+    margin: 29px 0px 0px 0px;
     flex-direction: column;
     align-items: center;
 }
 
 #div4 h2 {
-    margin: 0px;
-    padding-bottom: 20px;   
+    margin: 0px 0px 20px 0px; 
 }
 
 #div4 p {
@@ -268,24 +259,22 @@ footer ul a {
 
 #div5 {
     display: flex;
-    padding: 50px 0px 0px 0px;
+    margin: 50px 0px 0px 0px;
     flex-direction: column;
     align-items: center;
 }
 
 #div5 h2 {
-    margin: 0px;
-    padding-bottom: 50px;   
+    margin: 0px 0px 50px 0px;
 }
 
 #div5 p {
-    margin: 0px;
-    padding-bottom: 50px;
+    margin: 0px 0px 50px 0px;
 }
 
 #div6 {
     display: flex;
-    padding: 0px 71px 15px 72px;
+    margin: 0px 71px 15px 72px;
     line-height: 1.3;
     flex-direction: row;
     justify-content: center;
@@ -297,7 +286,7 @@ footer ul a {
 }
 
 #div6 li{
-    padding-bottom: 35px;
+    margin-bottom: 35px;
 }
 
 #div7{
@@ -305,7 +294,7 @@ footer ul a {
     gap: 35px;
     flex-direction: column;
     align-items: flex-start;
-    padding-right: 75px;
+    margin-right: 75px;
 }
 
 #div8{
@@ -317,7 +306,7 @@ footer ul a {
 
 #div9{
     display: flex;
-    padding: 10px 15px 30px 16px;
+    margin: 10px 15px 30px 16px;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -365,10 +354,7 @@ footer ul a {
     font-weight: 500;
     font-size: 1.4rem;
     line-height: 1.5;
-    margin: 0px;
-    padding: 0px 0px 50px 0px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px auto 50px auto;
     max-width: 345px;
 }
 
@@ -383,8 +369,7 @@ footer ul a {
     font-weight: 500;
     font-size: 1.4rem;
     opacity: .3;
-    margin: 0px;
-    padding: 0px 0px 50px 15px;
+    margin: 0px 0px 50px 15px;
 }
 
 #list{
@@ -409,7 +394,7 @@ footer ul a {
     }
 
     h1{
-        margin: 0px 0px 40px 0px;
+        padding-bottom: 50px;
         font-weight: 500;
     }
 
@@ -420,6 +405,7 @@ footer ul a {
     #sec1 img{
         width: 430px;
         height: 350px;
+        margin-bottom: 0px;
     }
 
     h2{
@@ -427,7 +413,7 @@ footer ul a {
     }
 
     #sec2 h2{
-        padding: 100px 0px 60px 0px;
+        padding-bottom: 60px;
     }
 
     #p3{
@@ -441,13 +427,14 @@ footer ul a {
     #sec3 img{
         width: 410px;
         height: 410px;
-        padding: 30px 0px 30px 0px;
+        padding-top: 30px;
+        margin-bottom: 30px;
     }
 
     .p5{
         font-weight: 600;
         font-size: 1.6rem;
-        padding: 0px 15px 50px 15px;
+        margin: 0px 15px 50px 15px;
     }
 
     .button{
@@ -462,7 +449,7 @@ footer ul a {
     }
 
     #div4 h2{
-        padding-bottom: 40px;
+        margin-bottom: 40px;
     }
 
     #sec5 img{
@@ -472,15 +459,15 @@ footer ul a {
     }
 
     #div5{
-        padding-top: 30px;
+        margin-top: 30px;
     }
 
     #div5 h2{
-        padding-bottom: 35px;
+        margin-bottom: 35px;
     }
 
     #logo2{
-        padding: 0px 0px 20px 0px;
+        margin-bottom: 20px;
     }
 
     footer ul a{
@@ -490,7 +477,7 @@ footer ul a {
     #p7{
         font-size: 1.8rem;
         margin: 0px;
-        padding-bottom: 10px;
+        margin-bottom: 10px;
     }
     
     #div9 img{
@@ -513,27 +500,26 @@ footer ul a {
         width: 460px;
         height: 375px;
         margin: auto;
-        padding: 36px 0px 0px 0px;
+        margin-top: 36px;
     }
 
     #sec3 img{
         width: 440px;
         height: 440px;
-        padding: 0px 0px 30px 0px;
     }
 
     #sec3 p{
-        padding-bottom: 60px;
+        margin-bottom: 60px;
     }
 
     #sec4 img{
         width: 510px;
         height: 356px;
-        padding-top: 14px;
+        padding-top: 30px;
     }
 
     #div4 h2{
-        padding-bottom: 70px;
+       margin-bottom: 70px;
     }
 }
 
@@ -548,15 +534,11 @@ footer ul a {
     }
 
     h1{
-        margin: 0px 0px 50px 0px;
-    }
-
-    .p5{
-        padding: 0px 75px 50px 75px;
+        padding-top: 50px;
     }
 
     #sec3 h2{
-        padding-bottom: 32px;
+        margin-bottom: 32px;
     }
 
     .button{
@@ -575,6 +557,11 @@ footer ul a {
         font-size: 77.7%;
     }
     
+    .wrapper{
+        padding: 0px;
+        margin: 0px;
+    }
+
     header{
         height: 130px;
     }
@@ -641,7 +628,7 @@ footer ul a {
         letter-spacing: 0.05em;
         position: absolute;
         padding: 0px;
-        margin: 60px 0px 0px 45px;
+        margin: 60px 0px 0px 60px;
     }
     
     #div1 {
@@ -649,7 +636,7 @@ footer ul a {
         flex-direction: column;
         gap: 20px;
         padding: 0px;
-        margin: 190px 0px 0px 45px;
+        margin: 190px 0px 0px 60px;
         max-width: 600px;
         position: absolute;
     }
@@ -661,11 +648,11 @@ footer ul a {
 
     #p2{
         font-size: 2rem;
-        padding-top: 25px;
+        margin-top: 25px;
     }
     
     #sec1 img{
-        margin: 0px 0px 0px auto;
+        margin: 0px 15px 0px auto;
         width: 620px;
         height: 497px;
     }
@@ -730,21 +717,21 @@ footer ul a {
     }
     
     #sec3 h2{
-        padding-bottom: 40px;
+        margin-bottom: 40px;
     }
     
     #sec3 p{
-        padding-bottom: 44px;
+        margin-bottom: 44px;
         width: 627px;
     }
 
     #div3{
         display: flex;
-        margin: 0px 50px 0px auto;
+        margin: 0px 0px 0px auto;
         flex-direction: column;
         align-items: flex-start;
         position:relative;
-        bottom:455px;
+        bottom:490px;
         width: 700px;
     }
 
@@ -766,10 +753,9 @@ footer ul a {
     #sec4 img{
         width: 690px;
         height: 493px;
-        margin: 0px;
+        margin: 0px 0px 0px auto;
         padding: 0px;
         position:relative;
-        right: -580px;
         top: 120px;
     }
 
@@ -784,7 +770,7 @@ footer ul a {
     
     #div4 h2 {
         font-size: 3.3rem;
-        padding-bottom: 40px;   
+        margin-bottom: 40px;   
         text-align: left;
     }
     
@@ -817,27 +803,28 @@ footer ul a {
     #sec5 img{
         width: 600px;
         height: 486px;
-        margin: 0px;
-        padding: 190px 0px 0px 0px;
+        margin: 0px 0px 0px 13px;
+        padding: 0px;
+        position: relative;
+        top: 190px;
     }
 
     #div5 {
         width: 600px;
         padding: 0px;
-        margin: 0px;
+        margin: 0px 25px 0px auto;
         align-items: flex-start;
         position: relative;
-        bottom: 520px;
-        right: -667px
+        bottom: 330px;
     }
     
     #div5 h2 {
-        padding-bottom: 40px;   
+        margin-bottom: 40px;   
     }
     
     #div5 p {
         font-size: 2rem;
-        padding-bottom: 60px;
+        margin-bottom: 60px;
     }
 
     footer {
@@ -852,33 +839,31 @@ footer ul a {
     #logo2{
         width: 321px;
         height: 160px;
-        padding: 0px 0px 0px 20px;
-        margin: 0px;
+        margin: 0px 0px 0px 20px;
     }
 
     #p6 {
         font-size: 1.5rem;
         line-height: 1.7;
-        padding: 0px 0px 0px 45px;
-        margin: 0px;
+        margin: 0px 0px 0px 45px;
         width: 308px;
         height: 102px;
     }
 
     #div6 {
-        padding: 0px 0px 0px 390px;
+        width: 280px;
+        margin: 0px auto 0px auto;
         position: relative;
         bottom: 233px;
-        justify-content: flex-start;
     }
     
     #div6 li{
-        padding-bottom: 57px;
+        margin-bottom: 57px;
     }
 
     #div7{
         gap: 30px;
-        padding-right: 70px;
+        margin-right: 70px;
     }
 
     #div8{
@@ -888,17 +873,14 @@ footer ul a {
     #p7{
         font-size: 1.4rem;
         position: relative;
-        bottom: 600px;
-        padding: 0px 0px 0px 720px;
+        margin: 0px 0px 0px 0px;
     }
 
     #div9{
         width: 464px;
-        margin: 0px;
+        margin: 0px 0px 0px 0px;
         padding: 0px;
         position: relative;
-        bottom: 570px;
-        padding: 0px 0px 0px 776px;
     }
 
     #div9 img{
@@ -909,15 +891,26 @@ footer ul a {
     #lastb{
         margin: 0px;
         position: relative;
-        bottom: 530px;
-        margin: 0px 0px 0px 823px;
+        margin: 0px 0px 0px 0px;
     }
 
     #p8{
         padding: 0px;
         position: relative;
         bottom: 520px;
-        padding: 0px 0px 0px 44px;
+        margin: 0px 0px 0px 44px;
+    }
+
+    #follow {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 440px;
+        gap: 50px;
+        position: relative;
+        bottom: 580px;
+        margin: 0px 20px 0px auto;
     }
 }
 
@@ -943,6 +936,10 @@ footer ul a {
 
     #div1{
         margin: 298px 0px 0px 0px;
+    }
+
+    #div2 {
+        margin-bottom: 0px;
     }
 
     #p1{
@@ -987,17 +984,17 @@ footer ul a {
     #sec3 img{
         width: 1000px;
         height: 1000px;
-        padding: 0px 0px 70px 0px;
+        padding: 0px;
         position:relative;
         right:80px;
     }
     #sec3 h2{
         font-size: 5rem;
-        padding-bottom: 40px;
+        margin-bottom: 40px;
     }
     
     #sec3 p{
-        padding-bottom: 44px;
+        margin-bottom: 44px;
         width: 627px;
         font-size: 1.5rem;
     }
@@ -1035,12 +1032,11 @@ footer ul a {
         height: 662px;
         margin-top: 0px;
         position:relative;
-        right: -980px;
     }
 
     #div4 {
         align-items: flex-start;
-        padding: 104px 0px 0px 0px;
+        margin: 104px 0px 0px 0px;
         width: 550px;
         position: relative;
         bottom: 600px;
@@ -1048,7 +1044,7 @@ footer ul a {
     }
     
     #div4 h2 {
-        padding-bottom: 40px;   
+        margin-bottom: 40px;   
         text-align: left;
     }
     
@@ -1081,28 +1077,26 @@ footer ul a {
     #sec5 img{
         width: 883px;
         height: 716px;
-        margin: 0px;
-        padding: 156px 0px 0px 39px;
+        margin: 0px 0px 0px 20px;
     }
 
     #div5 {
         width: 600px;
         padding: 0px;
-        margin: 0px;
+        margin: 0px 180px 0px auto;
         align-items: flex-start;
         position: relative;
-        bottom: 520px;
-        left: 1090px
+        bottom: 460px;
     }
     
     #div5 h2 {
-        padding-bottom: 40px;   
+        margin-bottom: 40px;   
         font-size: 4.5rem;
     }
     
     #div5 p {
         font-size: 2rem;
-        padding-bottom: 60px;
+        margin-bottom: 60px;
         font-weight: 400;
     }
 
@@ -1122,13 +1116,15 @@ footer ul a {
     #logo2{
         width: 321px;
         height: 160px;
-        padding: 39px 213px 20px 227px;
+        margin: 0px 213px 20px 227px;
+        position: relative;
+        top: 15px;
     }
 
     #p6 {
         font-size: 1.5rem;
         line-height: 1.7;
-        padding: 0px 0px 0px 240px;
+        margin: 0px 0px 0px 240px;
         width: 308px;
         height: 102px;
     }
@@ -1137,16 +1133,16 @@ footer ul a {
         padding: 0px;
         position: relative;
         bottom: 233px;
-        left: 680px;
+        left: 0px;
     }
     
     #div6 li{
-        padding-bottom: 30px;
+        margin-bottom: 30px;
     }
 
     #div7{
         gap: 30px;
-        padding-right: 150px;
+        margin-right: 150px;
     }
 
     #div8{
@@ -1155,18 +1151,15 @@ footer ul a {
 
     #p7{
         font-size: 2rem;
-        padding-left: 960px;
-    }
-
-    #div9{
-        padding-left: 1340px;
-    }
-
-    #lastb{
-        margin: 0px 0px 0px 1357px;
     }
 
     #p8{
-        padding: 40px 0px 0px 240px;
+        margin: 0px 0px 0px 240px;
+        bottom: 560px;
+    }
+
+    #follow{
+        bottom: 550px;
+        margin: 0px 60px 0px auto;
     }
 }
