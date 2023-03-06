@@ -1,4 +1,6 @@
-@import url(https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
 :root{
     box-sizing: border-box;
@@ -15,10 +17,6 @@
     --button-bg: #6A19F5;
     --button-bg2: #F9523B;
     }
-
- html {
-    font-family: 'Work Sans';
-}
 
 header {
     background-color:var(--white-bg);
@@ -231,7 +229,7 @@ footer ul a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0px 15px 100px 15px;
+    margin: 5px 15px 100px 15px;
 }
 
 #div3{
@@ -273,8 +271,9 @@ footer ul a {
 }
 
 #div6 {
+    width: 260px;
     display: flex;
-    margin: 0px 71px 15px 72px;
+    margin: 0px auto 15px auto;
     line-height: 1.3;
     flex-direction: row;
     justify-content: center;
@@ -466,6 +465,10 @@ footer ul a {
         margin-bottom: 35px;
     }
 
+    #div6{
+        width: 320px;
+    }
+
     #logo2{
         margin-bottom: 20px;
     }
@@ -521,6 +524,7 @@ footer ul a {
     #div4 h2{
        margin-bottom: 70px;
     }
+
 }
 
 @media (min-width: 960px) {
@@ -603,7 +607,7 @@ footer ul a {
         text-align: center;
         align-items: center;
         justify-content: center;
-        margin: 0px 90px 0px 90px;
+        margin: 0px 90px 0px 20px;
         box-shadow: 14px 12px 9px -5px rgba(40, 135, 208, 0.44) inset;
     }
     
@@ -613,7 +617,7 @@ footer ul a {
 
     #logo {
         width: 260px;
-        height: 130px;
+        height: 120px;
         margin: 0px 55px 0px auto;
     }
 
@@ -637,7 +641,7 @@ footer ul a {
         gap: 20px;
         padding: 0px;
         margin: 190px 0px 0px 60px;
-        max-width: 600px;
+        max-width: 576px;
         position: absolute;
     }
 
@@ -731,8 +735,8 @@ footer ul a {
         flex-direction: column;
         align-items: flex-start;
         position:relative;
-        bottom:490px;
-        width: 700px;
+        bottom: 490px;
+        width: 650px;
     }
 
     .p5 {
@@ -762,10 +766,10 @@ footer ul a {
     #div4 {
         align-items: flex-start;
         padding: 0px;
+        margin-left: 25px;
         width: 550px;
         position: relative;
         bottom: 320px;
-        left: 45px;
     }
     
     #div4 h2 {
@@ -851,7 +855,7 @@ footer ul a {
     }
 
     #div6 {
-        width: 280px;
+        width: 300px;
         margin: 0px auto 0px auto;
         position: relative;
         bottom: 233px;
@@ -877,7 +881,7 @@ footer ul a {
     }
 
     #div9{
-        width: 464px;
+        width: 430px;
         margin: 0px 0px 0px 0px;
         padding: 0px;
         position: relative;
@@ -899,6 +903,7 @@ footer ul a {
         position: relative;
         bottom: 520px;
         margin: 0px 0px 0px 44px;
+        width: 260px;
     }
 
     #follow {
@@ -936,6 +941,7 @@ footer ul a {
 
     #div1{
         margin: 298px 0px 0px 0px;
+        max-width: 800px;
     }
 
     #div2 {
@@ -1006,7 +1012,7 @@ footer ul a {
         align-items: flex-start;
         position:relative;
         bottom:700px;
-        width: 590px;
+        width: 660px;
     }
 
     .p5 {
@@ -1134,6 +1140,7 @@ footer ul a {
         position: relative;
         bottom: 233px;
         left: 0px;
+        width: 510px;
     }
     
     #div6 li{
